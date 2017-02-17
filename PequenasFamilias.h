@@ -11,6 +11,7 @@ class PequenasFamilias{
 		int defensa;
 
 	public:
+		//TODO CONSTRUCTORES
 		//Setter
 		void setNombre(string);
 		void setSimboloEscudo(string);
