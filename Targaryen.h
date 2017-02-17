@@ -13,6 +13,7 @@ class Targaryen{
 		int cantBarcos;
 
 	public:
+		//TODO:Hacer COnstructor y destructor y modificador 
 
 		//Setter
 		void setReina(string);
@@ -32,7 +33,7 @@ class Targaryen{
       int getCantDragones();
       
       //Metodo del vector
-      Dothraki* getIntegranteDothraki();
+      Dothraki* getIntegranteDothraki(int);
       
       int getCantBarcos();
 };
