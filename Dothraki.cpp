@@ -22,22 +22,22 @@ void Dothraki::setDefensa(int defensa){
 }
 //Getters
 
-string Dothraki::setNombre(string nombre){
+string Dothraki::getNombre(){
    return nombre;
 }
-string Dothraki::setJefeBarbaro(string jefeBarbaro){
+string Dothraki::getJefeBarbaro(){
    return jefeBarbaro;
 }
-string Dothraki::setNombreCaballo(string nombreCaballo){
+string Dothraki::getNombreCaballo(){
    return  nombreCaballo;
 }
-string Dothraki::setColorCaballo(string coloCaballo){
+string Dothraki::getColorCaballo(){
 	 return  coloCaballo;
 }
-int Dothraki::setAtaque(int ataque){
+int Dothraki::getAtaque(){
 	return  ataque;
 }
-int Dothraki::setDefensa(int defensa){
+int Dothraki::getDefensa(){
 	 return defensa;
 }
 

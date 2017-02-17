@@ -5,7 +5,7 @@
 //setters
 
 void Targaryen::setReina(string reina){
-	this->reino = reina;
+	this->reina = reina;
 
 }
 

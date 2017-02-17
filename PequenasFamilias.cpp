@@ -26,19 +26,19 @@ void PequenasFamilias::setDefensa(int defensa){
 string PequenasFamilias::getNombre(){
    return nombre;
 }
-string PequenasFamilias::setSimboloEscudo(){
+string PequenasFamilias::getSimboloEscudo(){
    return simboloEscudo;
 }
-string PequenasFamilias::setLema(){
+string PequenasFamilias::getLema(){
    return lema;
 }
-int PequenasFamilias::setCantPersonas(){
+int PequenasFamilias::getCantPersonas(){
    return cantPersonas;
 }
-int PequenasFamilias::setAtaque(){
+int PequenasFamilias::getAtaque(){
    return ataque;
 }
-int PequenasFamilias::setDefensa(){
+int PequenasFamilias::getDefensa(){
    return defensa;
 }
 
