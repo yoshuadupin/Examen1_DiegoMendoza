@@ -1,6 +1,8 @@
 //Guardia real header
 #include<string>
+using namespace std;
 
+#pragma once
 class GuardiaReal{
 	private:
 		string nombre;

@@ -1,6 +1,8 @@
 //Clase Starks
 #include<string>
 #include<vector>
+#include"PequenasFamilias.h"
+using namespace std;
 #pragma once
 class Starks{
 	private:

@@ -1,6 +1,8 @@
 //Clase Lannister
 #include<string>
 #include<vector>
+#include"GuardiaReal"
+using namespace std;
 
 #pragma once
 

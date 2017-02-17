@@ -1,7 +1,10 @@
 //Clase Targaryen Header
 #include<string>
 #include<vector>
+#include"Dothraki.h"
+using namespace std;
 
+#pragma once
 class Targaryen{
 	private:
 

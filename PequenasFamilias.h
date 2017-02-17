@@ -1,6 +1,8 @@
 //Clase Pequenas Familias header
 #include<string>
+using namespace std;
 
+#pragma once
 class PequenasFamilias{
 	private:
 		string nombre;
