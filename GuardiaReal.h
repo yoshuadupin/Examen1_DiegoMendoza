@@ -18,10 +18,10 @@ class GuardiaReal{
 		void setAtaque(int);
 		void setDefensa(int);
 		//Getters
-		string getNombre(string);
-      int getEdad(int);
-      string getTipoSoldado(string);
-      int getAtaque(int);
-      int getDefensa(int);
+		string getNombre();
+      int getEdad();
+      string getTipoSoldado();
+      int getAtaque();
+      int getDefensa();
 		//TODO:Constructores
 };

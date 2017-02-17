@@ -18,20 +18,20 @@ void GuardiaReal::setDefensa(int defensa){
 	this->defensa = defensa;
 }
 //Getters
-string GuardiaReal::setNombre(){
+string GuardiaReal::getNombre(){
    return nombre;
 }
 
-int GuardiaReal::setEdad(){
+int GuardiaReal::getEdad(){
    return edad;
 }
-string GuardiaReal::setTipoSoldado(){
+string GuardiaReal::getTipoSoldado(){
   	return tipoSoldado;
 }
-int GuardiaReal::setAtaque(){
+int GuardiaReal::getAtaque(){
   return ataque;
 }
-int GuardiaReal::setDefensa(){
+int GuardiaReal::getDefensa(){
   return defensa;
 }
 
