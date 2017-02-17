@@ -11,7 +11,7 @@ class Lannister{
       string jefeFamilia;
       string animalEmblema;
       string lema;
-      vector<EjercitoGuardiaReal*> ejercitoReal;
+      vector<GuardiaReal*> ejercitoReal;
       int cantDinero;
 		int fuerzaMontana;
       int cantIntegrantes;
@@ -23,7 +23,7 @@ class Lannister{
       void setAnimalEmblema(string);
       void setLema(string);
       //Metodos set del Vector
-      void setIntegranteGuardiaReal(EjercitoGuardiaReal*);
+      void setIntegranteGuardiaReal(GuardiaReal*);
     
       void setCantDinero(int);
 		void setFuerzaMontana(int);
@@ -35,7 +35,7 @@ class Lannister{
       string getLema();
 
 		 //Metodos get del vector
-      EjercitoGuardiaReal* getIntegranteGuardiaReal(int);
+      GuardiaReal* getIntegranteGuardiaReal(int);
 
       int getCantDinero();
 		int getFuerzaMontana();
