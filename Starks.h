@@ -1,6 +1,6 @@
 #include<string>
 #include<vector>
-
+#pragma once
 class Starks{
 	private:
 
@@ -15,6 +15,7 @@ class Starks{
 		//Constructor y destructor
 		Starks();
 		Starks(string , int , string , string , PequenasFamilias* , string , int);
+	
 		~Starks();
 		
 		//Setter
