@@ -1,4 +1,3 @@
-//Clase Starks
 #include<string>
 #include<vector>
 
@@ -13,7 +12,11 @@ class Starks{
 		string guerreroValioso;
 		int cantIntegrantes;
 	public:
-
+		//Constructor y destructor
+		Starks();
+		Starks(string , int , string , string , PequenasFamilias* , string , int);
+		~Starks();
+		
 		//Setter
 		void setJefeFamilia(string);
 		void setCantLobosHuargo(int);
