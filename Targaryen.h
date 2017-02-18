@@ -1,6 +1,7 @@
 //Clase Targaryen Header
 #include<string>
 #include<vector>
+#include<iostream>
 #include"Dothraki.h"
 using namespace std;
 
@@ -17,7 +18,8 @@ class Targaryen{
 
 	public:
 		//TODO:Hacer COnstructor y destructor y modificador 
-
+		Targaryen(string , string ,string , int , int);
+		~Targaryen();
 		//Setter
 		void setReina(string);
 		void setAnimalEmblema(string);

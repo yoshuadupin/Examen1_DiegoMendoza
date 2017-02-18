@@ -1,6 +1,7 @@
 //Clase Lannister
 #include<string>
 #include<vector>
+#include<iostream>
 #include"GuardiaReal.h"
 using namespace std;
 
@@ -19,7 +20,9 @@ class Lannister{
       int cantIntegrantes;
 
 	public:
-
+		//Constructor
+		Lannister(string , string , string , int , int, int );
+		~Lannister();
 		 //Setter
       void setJefeFamilia(string);
       void setAnimalEmblema(string);

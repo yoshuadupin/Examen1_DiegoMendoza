@@ -1,6 +1,7 @@
 //Clase Starks
 #include<string>
 #include<vector>
+#include<iostream>
 #include"PequenasFamilias.h"
 using namespace std;
 #pragma once
@@ -17,7 +18,7 @@ class Starks{
 	public:
 		//Constructor y destructor
 		Starks();
-		Starks(string , int , string , string , PequenasFamilias* , string , int);
+		Starks(string , int , string , string , string , int);
 	
 		~Starks();
 		

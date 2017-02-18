@@ -1,6 +1,26 @@
 //Clase Lannister
 #include"Lannister.h"
 
+//Constructor y destructor
+Lannister::Lannister(string jefeFamilia , string animalEmblema , string lema , int cantDinero , int fuerzaMontana , int cantIntegrantes){
+	cout<<"Nace un Lannister"<<endl;
+	setJefeFamilia(jefeFamilia);
+	setAnimalEmblema(animalEmblema); 
+	setLema(lema);
+	setCantDinero(cantDinero);
+	setFuerzaMontana(fuerzaMontana);
+	setCantIntegrantes(cantDinero);
+
+}
+
+Lannister::~Lannister(){
+	cout<<"Matando Lannister`"<<endl;
+   for(int i = 0 ; i < ejercitoReal.size() ; i++){
+      delete ejercitoReal[i];
+   }   
+   ejercitoReal.clear();
+
+}
 //Setter
 void Lannister::setJefeFamilia(string jefeFamilia){
    this->jefeFamilia = jefeFamilia;

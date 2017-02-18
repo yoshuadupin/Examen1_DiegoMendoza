@@ -2,6 +2,25 @@
 
 
 //TODO:CONSTRUCTOR DESTRUCTOR Y MODIFICAR DE TODO
+Targaryen::Targaryen(string reina , string animalEmblema , string lema , int cantDragones , int cantBarcos){
+	cout<<"Nace un Targaryen"<<endl;
+	setReina(reina);
+	setAnimalEmblema(animalEmblema);
+	setLema(lema);
+	setCantDragones(cantBarcos);
+	setCantBarcos(cantBarcos);
+	
+}
+
+Targaryen::~Targaryen(){
+	cout<<"Matando Targaryen`"<<endl;
+   for(int i = 0 ; i < ejercitoDothraki.size() ; i++){
+      delete ejercitoDothraki[i];
+   }   
+   ejercitoDothraki.clear();
+
+}
+
 //setters
 
 void Targaryen::setReina(string reina){

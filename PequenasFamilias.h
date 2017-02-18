@@ -1,5 +1,6 @@
 //Clase Pequenas Familias header
 #include<string>
+#include<iostream>
 using namespace std;
 
 #pragma once
