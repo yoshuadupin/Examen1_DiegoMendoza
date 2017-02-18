@@ -17,10 +17,6 @@ class Starks{
 		int cantIntegrantes;
 	public:
 		//Constructor y destructor
-		Starks();
-		Starks(string , int , string , string , string , int);
-	
-		~Starks();
 		
 		//Setter
 		void setJefeFamilia(string);
@@ -44,5 +40,8 @@ class Starks{
 		
 		string getGuerreroValioso();
 		int getCantIntegrantes();
+		Starks();
+      Starks(string , int , string , string , string , int); 
 
+		~Starks();
 };

@@ -2,23 +2,7 @@
 #include "Starks.h"
 
 //COnstructor
-Starks::Starks(string jefeFamilia , int cantLobosHuargo , string animalEmblema , string lema , string guerreroValioso , int cantIntegrantes){
-	//Les damos un valor 
-	cout<<"Nace un Starks"<<endl;
-	setJefeFamilia(jefeFamilia);
-	setCantLobosHuargo(cantLobosHuargo);
-	setAnimalEmblema(animalEmblema);
-	setLema(lema);
-	setGuerreroValioso(guerreroValioso);
-	setCantIntegrantes(cantIntegrantes);	
-}
-Starks::~Starks(){
-	cout<<"Matando Starks`"<<endl;
-	for(int i = 0 ; i < ejercitoFamilias.size() ; i++){
-		delete ejercitoFamilias[i];
-	}
-	ejercitoFamilias.clear();
-}
+
 
 //Setter
 void Starks::setJefeFamilia(string jefeFamilia){
@@ -66,6 +50,23 @@ int Starks::getCantIntegrantes(){
 	return cantIntegrantes; 
 }
 
+Starks::Starks(string jefeFamilia , int cantLobosHuargo , string animalEmblema , string lema , string guerreroValioso , int cantIntegrantes){
+   //Les damos un valor 
+   cout<<"Nace un Starks"<<endl;
+   setJefeFamilia(jefeFamilia);
+   setCantLobosHuargo(cantLobosHuargo);
+   setAnimalEmblema(animalEmblema);
+   setLema(lema);
+   setGuerreroValioso(guerreroValioso);
+   setCantIntegrantes(cantIntegrantes);   
+}
+Starks::~Starks(){
+   cout<<"Matando Starks`"<<endl;
+   for(int i = 0 ; i < ejercitoFamilias.size() ; i++){
+      delete ejercitoFamilias[i];
+   }   
+   ejercitoFamilias.clear();
+}
 
 	
 
