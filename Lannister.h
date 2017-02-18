@@ -41,7 +41,7 @@ class Lannister{
 
 		 //Metodos get del vector
       GuardiaReal* getIntegranteGuardiaReal(int);
-
+		vector getEjercitoReal();
       int getCantDinero();
 		int getFuerzaMontana();
       int getCantIntegrantes();

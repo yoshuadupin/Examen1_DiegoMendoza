@@ -115,7 +115,23 @@ int main(){
 		
 		//Cierre del segundo IF agregar soldado
 		}else if(opcion == 3){
+			int opcionListar;
 			cout<<"Que quieres listar: 1. Starks 2. Targaryen . 3. Lannister"<<endl;
+			if(opcionListar == 1){
+				for(int i  = 0 ; i<famStarks->getEjercitoFamilias().size(); i++){
+					cout<<famStarks->getEjercitoFamilias[i].nombre<<endl;
+				}
+			}else if(opcionListar == 2){
+				for(int i = 0 ; i<famTargaryen->getEjercitoDothraki().size();i++){
+					famTargaryen->getEjercitoDothraki().at(i).nombre<<endl;
+				}
+			
+			}else if(opcionListar == 3){
+				for(int i= 0 ;i<famLannister->getEjercitoReal().size();i++){
+					famLannister->getEjercitoReal().at(i).nombre<<endl;
+				}
+			}
+			//Fin del if listar;
 		}
 	}while(opcion == 0);	
 

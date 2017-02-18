@@ -21,6 +21,9 @@ Lannister::~Lannister(){
    ejercitoReal.clear();
 
 }
+vector Lannister::getEjercitoReal(){
+	return ejercitoReal;
+}
 //Setter
 void Lannister::setJefeFamilia(string jefeFamilia){
    this->jefeFamilia = jefeFamilia;

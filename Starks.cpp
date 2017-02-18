@@ -1,7 +1,9 @@
 //Clase Starks
 #include "Starks.h"
 
-//COnstructor
+vector Starks::getEjercitoFamilias(){
+	return ejercitoFamilias;
+}
 
 
 //Setter

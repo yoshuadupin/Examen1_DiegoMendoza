@@ -36,7 +36,7 @@ class Targaryen{
       string getAnimalEmblema();
       string getLema();
       int getCantDragones();
-      
+		vector getEjercitoDothraki();      
       //Metodo del vector
       Dothraki* getIntegranteDothraki(int);
       

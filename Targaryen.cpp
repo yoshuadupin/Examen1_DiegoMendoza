@@ -21,6 +21,10 @@ Targaryen::~Targaryen(){
 
 }
 
+vector Targaryen::getEjercitoDothraki(){
+	return ejercitoDothraki;
+}
+
 //setters
 
 void Targaryen::setReina(string reina){
