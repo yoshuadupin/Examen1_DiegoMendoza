@@ -1,5 +1,6 @@
 //Clase DothRaki
 #include<string>
+#include<iostream>
 using namespace std;
 
 #pragma once
@@ -8,11 +9,13 @@ class Dothraki{
 		string nombre;
 		string jefeBarbaro;
 		string nombreCaballo;
-		string coloCaballo;
+		string colorCaballo;
 		int ataque;
 		int defensa;
 	public:
 		//TODO CONSTRUCTORES
+		~Dothraki();
+		Dothraki(string  ,string ,string , string ,int , int);
 		//Setters
 		void setNombre(string);
       void setJefeBarbaro(string);

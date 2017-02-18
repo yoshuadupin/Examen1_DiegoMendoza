@@ -1,5 +1,6 @@
 //Guardia real header
 #include<string>
+#include<iostream>
 using namespace std;
 
 #pragma once
@@ -24,4 +25,6 @@ class GuardiaReal{
       int getAtaque();
       int getDefensa();
 		//TODO:Constructores
+		GuardiaReal(string , int , string ,int , int);
+		~GuardiaReal();
 };

@@ -2,6 +2,19 @@
 
 #include "PequenasFamilias.h"
 //TODO:CONSTRUctores
+PequenasFamilias::PequenasFamilias(string nombre , string simboloEscudo , string lema , int cantPersonas , int ataque , int defensa){
+	cout<<"Soldado de pequena familia listo"<<endl;
+	setNombre(nombre);
+	setSimboloEscudo(simboloEscudo);
+	setLema(lema);
+	setCantPersonas(cantPersonas);
+	setAtaque(ataque);
+	setDefensa(defensa);
+}	
+PequenasFamilias::~PequenasFamilias(){
+	cout<<"Ah muerto un soldado Noble"<<endl;
+}
+
 //Setters
 void PequenasFamilias::setNombre(string nombre){
 	this->nombre = nombre;

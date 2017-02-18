@@ -15,6 +15,8 @@ class PequenasFamilias{
 
 	public:
 		//TODO CONSTRUCTORES
+		PequenasFamilias(string , string , string , int , int , int);
+		~PequenasFamilias();
 		//Setter
 		void setNombre(string);
 		void setSimboloEscudo(string);

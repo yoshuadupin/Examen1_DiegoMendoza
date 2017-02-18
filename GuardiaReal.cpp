@@ -1,5 +1,17 @@
 //Implementacion de las clases
 #include "GuardiaReal.h"
+
+GuardiaReal::GuardiaReal(string nombre , int edad , string tipoSoldado , int ataque , int defensa){
+	cout<<"Reclutamos a los mejores Guardias"<<endl;
+	setNombre(nombre);
+	setEdad(edad);
+	setTipoSoldado(tipoSoldado);
+	setAtaque(ataque);
+	setDefensa(defensa);
+}
+GuardiaReal::~GuardiaReal(){
+	cout<<"Acaba tu vida de seguir ordenes"<<endl;
+}
 //Setters
 void GuardiaReal::setNombre(string nombre){
 	this->nombre = nombre;
