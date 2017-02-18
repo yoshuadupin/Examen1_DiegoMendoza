@@ -21,7 +21,7 @@ Lannister::~Lannister(){
    ejercitoReal.clear();
 
 }
-vector Lannister::getEjercitoReal(){
+vector<GuardiaReal*> Lannister::getEjercitoReal(){
 	return ejercitoReal;
 }
 //Setter

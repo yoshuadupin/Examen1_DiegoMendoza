@@ -16,7 +16,7 @@ int main(){
 	int opcion = 0 ; 
 	do{
 		cout<<"Bienvenidos a Juego de Tronos donde nadie vive para siempr\n";
-		cout<<"1.Inicias las familias\n2.Agrega reclutas a tu ejercito\n3.Expulsar recluta de tus tropas\n4.Nuestra Era a terminado"<<endl;
+		cout<<"1.Inicias las familias\n2.Agrega reclutas a tu ejercito\n3.Expulsar recluta de tus tropas\n4.Simulacion \n5. Aprete 0 para que todo termine"<<endl;
 		cin>>opcion;
 		if(opcion==1){
 			int opcionFam;
@@ -119,21 +119,28 @@ int main(){
 			cout<<"Que quieres listar: 1. Starks 2. Targaryen . 3. Lannister"<<endl;
 			if(opcionListar == 1){
 				for(int i  = 0 ; i<famStarks->getEjercitoFamilias().size(); i++){
-					cout<<famStarks->getEjercitoFamilias[i].nombre<<endl;
+					cout<<famStarks->getEjercitoFamilias().at(i)->getNombre()<<endl;
 				}
 			}else if(opcionListar == 2){
 				for(int i = 0 ; i<famTargaryen->getEjercitoDothraki().size();i++){
-					famTargaryen->getEjercitoDothraki().at(i).nombre<<endl;
+					cout<<famTargaryen->getEjercitoDothraki().at(i)->getNombre()<<endl;
 				}
 			
 			}else if(opcionListar == 3){
 				for(int i= 0 ;i<famLannister->getEjercitoReal().size();i++){
-					famLannister->getEjercitoReal().at(i).nombre<<endl;
+					cout<<famLannister->getEjercitoReal().at(i)->getNombre()<<endl;
 				}
 			}
 			//Fin del if listar;
+		}else if(opcion == 4){
+			cout<<"Nadie gana en la guerra"<<endl;
 		}
+		
 	}while(opcion == 0);	
 
 	return 0;
+}
+
+void simulaciodeBatalla(){
+
 }

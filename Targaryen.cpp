@@ -21,7 +21,7 @@ Targaryen::~Targaryen(){
 
 }
 
-vector Targaryen::getEjercitoDothraki(){
+vector<Dothraki*> Targaryen::getEjercitoDothraki(){
 	return ejercitoDothraki;
 }
 

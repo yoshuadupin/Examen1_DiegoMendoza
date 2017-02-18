@@ -34,7 +34,7 @@ class Starks{
 		int getCantLobosHuargo();
 		string getAnimalEmblema();
 		string getLema();
-		vector getEjercitoFamilias();
+		vector<PequenasFamilias*> getEjercitoFamilias();
 		//Metodos get del vector
 		PequenasFamilias* getIntegranteFamilia(int);
 		

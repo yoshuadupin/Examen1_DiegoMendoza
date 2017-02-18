@@ -1,7 +1,7 @@
 //Clase Starks
 #include "Starks.h"
 
-vector Starks::getEjercitoFamilias(){
+vector<PequenasFamilias*> Starks::getEjercitoFamilias(){
 	return ejercitoFamilias;
 }
 

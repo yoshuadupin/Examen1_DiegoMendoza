@@ -1,4 +1,4 @@
-#Tipos Objetos
+
 
 JuegoDeTronos: main.o Starks.o Targaryen.o Lannister.o PequenasFamilias.o Dothraki.o GuardiaReal.o 
 	g++ main.o Starks.o Targaryen.o Lannister.o PequenasFamilias.o Dothraki.o GuardiaReal.o -o JuegoDeTronos
